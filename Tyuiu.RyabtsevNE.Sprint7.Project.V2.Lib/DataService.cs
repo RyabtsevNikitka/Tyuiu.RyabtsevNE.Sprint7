@@ -16,7 +16,7 @@
                 string[] line_r = lines[i].Split(';');
                 for (int j = 0; j < cols; j++)
                 {
-                    arrayValues[i, j] = Convert.ToString(line_r[j]);
+                    arrayValues[i, j] = Convert.ToString(line_r[j]); 
                 }
             }
             return arrayValues;
