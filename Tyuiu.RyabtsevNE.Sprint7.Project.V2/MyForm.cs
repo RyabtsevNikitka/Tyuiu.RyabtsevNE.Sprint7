@@ -10,18 +10,28 @@ using System.Windows.Forms;
 
 namespace Tyuiu.RyabtsevNE.Sprint7.Project.V2
 {
-    public partial class LoginForm : Form
+    public partial class MyForm : Form
     {
-        public LoginForm()
+        public MyForm()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void labelclick_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MyForm myform = new MyForm();
-            myform.Show();
+            MainForm mainform = new MainForm();
+            mainform.Show();
+        }
+
+        private void MyForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelclick_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

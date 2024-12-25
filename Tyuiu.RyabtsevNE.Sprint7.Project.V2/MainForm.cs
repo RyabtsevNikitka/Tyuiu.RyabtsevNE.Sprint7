@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tyuiu.RyabtsevNE.Sprint7.Project.V2
 {
-    public partial class MForm : Form
+    public partial class MainForm : Form
     {
-        public MForm()
+        public MainForm()
         {
             InitializeComponent();
         }
